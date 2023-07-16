@@ -1,0 +1,106 @@
+/*=============SomenderDesigner=============*/
+/*=============SomenderDesigner=============*/
+/*=============SomenderDesigner=============*/
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 320px){
+	html,body{overflow-x: hidden;}
+
+	.my_navbar{padding: 0;padding-top: 20px;}
+	.my_toggler{/* margin-right: -7px; */}
+
+	.banner{height: 93vh;padding-top: 64vh;/* background-position: center; *//* width: 100vh; */background-position: 63% 50%;}
+	.banner h4{font-size: 21px;padding-bottom: 13px;}
+	.banner h2{font-size: 25px;line-height: 20px;}
+	.banner h1{font-size: 40px;}
+
+	.aboutMe{position: relative;}
+	.aboutMe .blank_line{position: absolute;height: 100%;top: -13%;}
+	.aboutMe h2{padding-left: 15px;}
+
+	.PrsnlInfrmtn ul{font-size: 16px;padding-left: 15px;padding-top: 10px;}
+	.PrsnlInfrmtn ul li span{width: 30%;line-height: 20px;}
+	.PrsnlInfrmtn .blank_line{position: absolute;height: 100%;top: -13%;left: 15px;}
+	.PrsnlInfrmtn h2{padding-left: 15px;}
+	.PrsnlInfrmtn .row{flex-direction: column-reverse;}
+	.PrsnlInfrmtn .row .row{flex-direction: column;}
+	.PrsnlInfrmtn .text-right{text-align: left !important;}
+
+	.education .blank_line{position: absolute;height: 100%;top: -13%;left: 15px;}
+	.education h2{padding-left: 15px;}
+	.education .rgt_cnt .blank_line_edu{display: none;}
+	.education .eduRow .left span{padding: 14px 28px 14px 20px;}
+	.education .eduRow .left{width: 100%;padding-bottom: 15px;}
+	.education .eduRow .right{float: inherit;width: 100%;}
+	.education .eduRow .left:after{background: transparent;}
+	.education .eduRow{padding-top: 20px;padding-left: 15px;}
+
+	.Prof_key .co{padding-left: 15px;}
+	.Prof_key .head_txt{padding: 0;}
+	.Prof_key ul li span{width: 100%;}
+
+	.experience .eduRow .left{width: 100%;float: inherit;padding-bottom: 0;}
+	.experience .eduRow .right{width: 100%;float: inherit;/* padding-left: 15px; */margin-top: 35px;}
+	.experience .rgt_cnt .blank_line_edu{left: 0;display: none;}
+	.experience .eduRow .left:after{background: transparent;}
+	.experience .eduRow .left span{padding: 14px 14px;display: block;}
+	.experience .eduRow .left span:after{transform: rotate(90deg);top: inherit;bottom: -34px;left: 35px;right: inherit;}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px){
+	html,body{overflow-x: hidden;}
+
+	.my_navbar{padding: 0;padding-top: 20px;}
+	.my_toggler{/* margin-right: -7px; */}
+
+	.banner{height: 93vh;padding-top: 57vh;/* background-position: center; *//* width: 100vh; */background-position: 63% 50%;}
+	.banner h4{font-size: 21px;padding-bottom: 13px;}
+	.banner h2{font-size: 30px;line-height: 34px;}
+	.banner h1{font-size: 49px;}
+
+	.aboutMe{position: relative;}
+	.aboutMe .blank_line{position: absolute;height: 100%;top: -13%;}
+	.aboutMe h2{padding-left: 15px;}
+
+	.PrsnlInfrmtn ul{font-size: 16px;padding-left: 15px;padding-top: 10px;}
+	.PrsnlInfrmtn ul li span{width: 30%;line-height: 20px;}
+	.PrsnlInfrmtn .blank_line{position: absolute;height: 100%;top: -13%;left: 15px;}
+	.PrsnlInfrmtn h2{padding-left: 15px;}
+	.PrsnlInfrmtn .row{flex-direction: column-reverse;}
+	.PrsnlInfrmtn .row .row{flex-direction: column;}
+	.PrsnlInfrmtn .text-right{text-align: left !important;}
+
+	.education .blank_line{position: absolute;height: 100%;top: -13%;left: 15px;}
+	.education h2{padding-left: 15px;}
+	.education .rgt_cnt .blank_line_edu{display: none;}
+	.education .eduRow .left span{padding: 14px 28px 14px 20px;}
+	.education .eduRow .left{width: 100%;padding-bottom: 15px;}
+	.education .eduRow .right{float: inherit;width: 100%;}
+	.education .eduRow .left:after{background: transparent;}
+	.education .eduRow{padding-top: 20px;padding-left: 15px;}
+
+	.Prof_key .co{padding-left: 15px;}
+	.Prof_key .head_txt{padding: 0;}
+	.Prof_key ul li span{width: 100%;}
+
+	.experience .eduRow .left{width: 100%;float: inherit;padding-bottom: 0;}
+	.experience .eduRow .right{width: 100%;float: inherit;/* padding-left: 15px; */margin-top: 35px;}
+	.experience .rgt_cnt .blank_line_edu{left: 0;display: none;}
+	.experience .eduRow .left:after{background: transparent;}
+	.experience .eduRow .left span{padding: 14px 14px;display: block;}
+	.experience .eduRow .left span:after{transform: rotate(90deg);top: inherit;bottom: -34px;left: 35px;right: inherit;}	
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	.education .blank_line{position: absolute;top: 120%;}
+	.education .rgt_cnt{margin-top: 25px;}
+	.Prof_key .blank_line{position: absolute;right: 0;top: -112%;}
+
+	.experience .eduRow .left{width: 26%;}
+	.experience .eduRow .left:after{background: transparent;}
+	.experience .tab-none{display: none;}
+
+	.banner{height: 93vh;padding-top: 64vh;background-position: 63% 50%;}
+
+}
