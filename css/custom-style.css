@@ -68,7 +68,8 @@ h1,h2,h3,h4,h5{
 }
 
 
-body{background: #060D18;}
+/* body{background: #060D18;} */
+body{background: #fff;}
 
 
 .my_navbar{
