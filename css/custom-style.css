@@ -56,7 +56,7 @@ p{
 }
 
 h1,h2,h3,h4,h5{
-	color: #fff;
+	color: #0f4294;
 }
 
 .no-padding{/* padding: 0; */}
@@ -344,6 +344,7 @@ body{background: #060D18;}
 	font-family: Montserrat-Bold;
 	font-size: 40px;
 	margin-top: 20px;
+	color: #0f4294;
 }
 
 .PrsnlInfrmtn .blank_line{
@@ -363,7 +364,7 @@ body{background: #060D18;}
 .PrsnlInfrmtn ul li span{
 	display: inline-block;
 	width: 47%;
-	color: #fff;
+	color: #0f4294;
 	font-family: consolab;
 }
 
@@ -506,7 +507,7 @@ body{background: #060D18;}
 	border: 0;
 }
 .Prof_key tr td:nth-child(1){
-	color: #fff;
+	color: #0f4294;
     font-family: consolab;
 }
 
@@ -613,7 +614,7 @@ body{background: #060D18;}
 }
 
 .experience .eduRow .right p span{
-	color: #fff;
+	color: #0f4294;
 	font-weight: bold;
 }
 
@@ -782,7 +783,7 @@ body{background: #060D18;}
 	line-height: 1;
 }
 .work h5 a{
-	color: #fff;
+	color: #0f4294;
 }
 
 
